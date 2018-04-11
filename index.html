@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- custom style-->
+    <link rel="stylesheet" href="mystyle.css">
+
+    <title>Social Hackers Academy - Technical Assignment</title>
+  </head>
+  
+  <body>
+    <div class="container">
+        <!-- Site Title -->
+        <div class="row myrow">    
+            <div class="col-md-12">
+                <h3 class="text-center">
+                    Social Hackers Academy - Technical Assignment
+                </h3>
+            </div>
+        </div>
+        
+        <!-- Form for user term input-->
+        <div class="row myrow row-requests-bg">
+            <div class="col-md-12">
+                <form>
+                    <div class="form-group">
+                        <label for="InputSearchTerm">Please enter the search term</label>
+                        <input type="text" class="form-control" id="InputSearchTerm" aria-describedby="emailHelp" placeholder="Search term here">
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="btnSearchTerm">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- The results of the requests section-->
+        <div class="row myrow row-requests-bg">
+            <div class="col-md12">
+                <div id="results">
+                    In this place data will appear.
+                </div>
+            </div>
+        </div>
+
+        <!-- The console section-->
+        <div class="row myrow">
+            <div class="col-md-6">
+                <h5 class="text-right">
+                    Click to send a message to console
+                </h5>
+            </div>
+            <div class="col-md-6">
+                <button type="button" class="btn btn-success" id="clickToConsole">
+                    Send to console
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- Custom js files-->
+    <script src="console.js"></script>
+    <script src="user-repos.js"></script>
+  </body>
+</html>
